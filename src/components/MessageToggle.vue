@@ -8,6 +8,9 @@
 </template>
 
 <script>
+
+  import { quillEditor } from 'vue-quill-editor';
+
   export default {
     name: 'message-toggle',
     data: () => ({
@@ -17,6 +20,7 @@
       toggleMessage () {
         this.msg = this.msg === 'message' ? 'toggled message' : 'message'
       }
-    }
+    },
+    components: { quillEditor },
   }
 </script>

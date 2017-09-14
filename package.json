@@ -12,7 +12,8 @@
     "unit": "jest"
   },
   "dependencies": {
-    "vue-router": "^2.6.0"
+    "vue-router": "^2.6.0",
+    "vue-quill-editor": "^2.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
